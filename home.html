@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- here group is given to apply hover  -->
+    <section
+        class=" group h-screen bg-[url('https://preview.colorlib.com/theme/pato/images/slide1-01.jpg')] bg-cover bg-center ">
+        <!-- pointer-events-none is here to make hover effect work in this page since abosule is given for whole page-->
+        <div class="absolute inset-0 bg-black/30 pointer-events-none"></div>
+
+
+
+        <nav id="navbar" class=" flex items-center justify-evenly fixed top-0 left-0 w-full px-8 py-4 text-white z-10 ">
+
+            <div>
+                <img src="https://preview.colorlib.com/theme/pato/images/icons/logo.png" alt="">
+            </div>
+
+            <div class=" space-x-8 font-medium">
+                <a href="">HOME</a>
+                <a href="menu.html">MENU</a>
+                <a href="">RESERVATION</a>
+                <a href="">GALLERY</a>
+                <a href="">ABOUT</a>
+                <a href="">BLOG</a>
+                <a href="">CONTACT</a>
+            </div>
+            <div class=" space-x-4">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-twitter "></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <div class="h-screen text-white flex justify-between items-center">
+            <!-- opacity is given to make contain readable so group-hover to apply the hover effect  -->
+            <div class="opacity-0 group-hover:opacity-60 ">
+                <i class="fa-solid fa-chevron-left  px-7 py-5 rounded-full bg-black ml-12  hover:bg-red-500"></i>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+                <h2 class="text-6xl font-semibold mb-4 font-[Courgette] ">Welcome to</h2>
+                <h1 class="text-8xl font-bold mb-6 tracking-widest font-[Poppins] ">PATO PLACE</h1>
+                <button
+                    class="text-red-600 bg-white  border-2 border-white px-4 py-3 rounded-lg hover:bg-red-600 hover:text-white transition duration-300">
+                    Look Menu
+                </button>
+            </div>
+            <div class="opacity-0 group-hover:opacity-60">
+                <i class="fa-solid fa-chevron-right px-7 py-5 rounded-full bg-black mr-12  hover:bg-red-500"></i>
+            </div>
+        </div>
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex space-x-1 ">
+            <div class="px-1 py-1 rounded-full bg-gray-700"></div>
+            <div class="px-1 py-1 rounded-full bg-gray-700"></div>
+            <div class="px-1 py- rounded-full bg-gray-700"></div>
+        </div>
+
+    </section>
+
+    <section class=" h-screen bg-blue-50 ">
+        <div class=" flex">
+
+            <div class=" flex flex-col justify-center items-center w-1/2 h-screen ml-36 ">
+                <h2 class=" text-4xl  text-red-600 font-[Courgette] ">Italian Restaurant</h2>
+                <h1 class="text-6xl font-bold tracking-widest mt-3 font-[Poppins]">WELCOME</h1>
+                <p class="  mt-10 leading-7 text-gray-600 px-10  text-center font-[Montserrat] ">Donec quis lorem nulla.
+                    Nunc eu odio mi.
+                    Morbi nec
+                    lobortis est. Sed fringilla,
+                    nunc sed imperdiet lacinia, nisl ante egestas mi,
+                    ac facilisis ligula sem id neque.</p>
+                <button class="mt-10 left-1/2 -translate-x-1/2 text-gray-600 ">our story<i
+                        class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+                </button>
+            </div>
+
+            <div class="flex  justify-center items-center w-1/2 h-screen">
+                <img src="https://preview.colorlib.com/theme/pato/images/our-story-01.jpg"
+                    class="h-96 rounded-lg hover:scale-105 transition-transform duration-300" alt="">
+            </div>
+        </div>
+    </section>
+    <section
+        class="bg-[url('https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg')] h-screen bg-fixed bg-cover">
+        <div class="h-screen flex flex-col justify-center items-center">
+            <h2 class=" text-3xl  text-red-600 font-[Courgette]">Discover</h2>
+            <h1 class="text-6xl font-bold  font-[Poppins] text-white tracking-widest">PATO PLACE</h1>
+        </div>
+    </section>
+
+
+    <section class="h-screen flex p-b-60 p-24 gap-8">
+        <div class=" space-y-6">
+            <img src="https://preview.colorlib.com/theme/pato/images/intro-01.jpg "
+                class="rounded-lg hover:scale-105 transition-transform duration-300" alt="">
+            <h4 class="text-xl [Poppins] tracking-widest font-semibold">ROMANTIC RESTRUANT</h4>
+            <p class="text-gray-600">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+            <button class="  text-gray-600 ">our story<i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+            </button>
+        </div>
+        <div class=" space-y-6">
+            <img src="https://preview.colorlib.com/theme/pato/images/intro-02.jpg"
+                class="rounded-lg hover:scale-105 transition-transform duration-300" alt="">
+            <h4 class="text-xl [Poppins] tracking-widest font-semibold">DELICIOUS FOOD</h4>
+            <p class="text-gray-600">Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna.</p>
+            <button class="  text-gray-600 ">our story<i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+            </button>
+        </div>
+        <div class="space-y-6">
+            <img src="https://preview.colorlib.com/theme/pato/images/intro-04.jpg"
+                class="rounded-lg hover:scale-105 transition-transform duration-300" alt="">
+            <h4 class="text-xl [Poppins] tracking-widest font-semibold">RED WINES YOU LOVE</h4>
+            <p class="text-gray-600">Sed ornare ligula eget tortor tempor, quis porta tellus dictum..</p>
+            <button class="  text-gray-600 ">our story<i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="  p-24 bg-green-50">
+
+        <div class=" flex flex-col justify-center items-center gap-3">
+            <h2 class=" text-3xl  text-red-600 font-[Courgette]">Discover</h2>
+            <h1 class="text-5xl font-bold  font-[Poppins] text-black tracking-widest">OUR MENU</h1>
+        </div>
+        <div class="flex gap-8 mt-10">
+            <div class="relative">
+                <img src="https://preview.colorlib.com/theme/pato/images/our-menu-01.jpg"
+                    class="rounded-lg hover:scale-105 transition-transform duration-500 bg-cover bg-center  " alt="">
+                <button class=" absolute inset-0 h-12 w-32 m-auto  bg-white/80 rounded-lg text-xl tracking-widest  
+                    hover:bg-red-600 hover:text-white  ">LUNCH</button>
+            </div>
+            <div class="relative">
+                <img src="https://preview.colorlib.com/theme/pato/images/our-menu-05.jpg"
+                    class="rounded-lg hover:scale-105 transition-transform duration-500" alt="">
+                <button class=" absolute inset-0 h-12 w-32 m-auto  bg-white/80 rounded-lg text-xl tracking-widest  
+                    hover:bg-red-600 hover:text-white  ">DINNER</button>
+            </div>
+            <div>
+                <div class="relative">
+                    <img src="https://preview.colorlib.com/theme/pato/images/our-menu-08.jpg"
+                        class="  rounded-lg hover:scale-105 transition-transform duration-500" alt="">
+                    <button class=" absolute inset-0 h-12 w-32 m-auto  bg-white/80 rounded-lg text-xl tracking-widest  
+                    hover:bg-red-600 hover:text-white  ">DRINKS</button>
+                </div>
+                <div class="relative">
+                    <img src="https://preview.colorlib.com/theme/pato/images/booking-01.jpg"
+                        class="rounded-lg hover:scale-105 transition-transform duration-500 mt-8" alt="">
+                    <button class=" absolute inset-0 h-12 w-32 m-auto  bg-white/80 rounded-lg text-xl tracking-widest  
+                    hover:bg-red-600 hover:text-white  ">STARTERS</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex mt-8 gap-8 ">
+            <div class="relative w-2/3">
+                <img src="https://preview.colorlib.com/theme/pato/images/our-menu-13.jpg"
+                    class="  rounded-lg hover:scale-105 transition-transform duration-500 " alt="">
+                <button class=" absolute inset-0 h-12 w-38 m-auto  bg-white/80 rounded-lg text-xl tracking-widest  
+                hover:bg-red-600 hover:text-white  ">HAPPY HOUR</button>
+            </div>
+            <div class="relative w-1/3">
+                <img src="https://preview.colorlib.com/theme/pato/images/our-menu-16.jpg"
+                    class="  rounded-lg hover:scale-105 transition-transform duration-500" alt="">
+                <button class=" absolute inset-0 h-12 w-32 m-auto  bg-white/80 rounded-lg text-xl tracking-widest  
+                hover:bg-red-600 hover:text-white  ">DESSERT</button>
+            </div>
+        </div>
+    </section>
+    <section
+        class=" relative group h-screen bg-[url('https://preview.colorlib.com/theme/pato/images/bg-event-01.jpg')] bg-cover bg-center ">
+        <div class="absolute inset-0 bg-black/30 pointer-events-none"></div>
+
+        <div class="relative z-10">
+
+            <div class=" flex flex-col justify-center items-center gap-3 p-24">
+                <h2 class=" text-3xl  text-red-600 font-[Courgette]">Upcomming</h2>
+                <h1 class="text-5xl font-bold  font-[Poppins] text-white tracking-widest">EVENTS</h1>
+            </div>
+            <div class="opacity-0 group-hover:opacity-60 absolute ">
+                <i class="fa-solid fa-chevron-left  px-7 py-5 rounded-full bg-black ml-12  hover:bg-red-500"></i>
+            </div>
+            <div class="absolute inset-0 ">
+                <p class="bg-red-500">8:00 PM TUESDAY-18 NOVMBER 2018</p>
+                <img src="https://preview.colorlib.com/theme/pato/images/event-02.jpg" alt="">
+                <div class="">
+                    <h2 class="text-xl [Poppins] tracking-widest font-semibold">WINES DURING SPECIFIC NIGHTS</h2>
+                    <P class="text-gray-600">Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna.
+                    </P>
+                </div>
+            </div>
+            <div class="opacity-0 group-hover:opacity-60 absolute ">
+                <i class="fa-solid fa-chevron-right  px-7 py-5 rounded-full bg-black ml-12  hover:bg-red-500"></i>
+            </div>
+        </div>
+    </section>
+    <section class="h-screen flex p-24 bg-gray-50 ">
+        <div class=" flex flex-col  items-center w-1/2 h-screen space-y-3 ">
+            <h2 class=" text-3xl  text-red-600 font-[Courgette]">Reservation</h2>
+            <h1 class="text-5xl font-bold  font-[Poppins] text-black tracking-widest">BOOK TABLE</h1>
+            <form action="" class=" gap-6 mt-10 font-[Montserrat] ">
+                <div class="flex gap-6">
+                    <div class=" space-y-6">
+                        <label for="" class="text-gray-500 font-medium">Date</label><br>
+                        <input type="Date"
+                            class="border-2 border-gray-300 rounded-lg text-gray-600  bg-white px-14 py-2"><br>
+                        <label for="" class="text-gray-500 font-medium">Time</label><br>
+                        <input type="time"
+                            class="border-2 border-gray-300 rounded-lg text-gray-600  bg-white px-20 py-2"><br>
+                        <label for="" class="text-gray-500 font-medium"> People</label><br>
+                        <div class="border-2 border-gray-300 rounded-lg text-gray-600  bg-white px-9 py-2">
+                             <select name="persons" id="peoples">
+                            <option value="1 people">1 people</option>
+                            <option value="1 people">2 peoples</option>
+                            <option value="1 people">3 peoples</option>
+                            <option value="1 people">4 peoples</option>
+                        </select>
+                        </div>
+                                              
+                    </div>
+                    <div class="space-y-6">
+                        <label for="" class="text-gray-500 font-medium">Name</label><br>
+                        <input type="text" placeholder="name"
+                            class="border-2 border-gray-300 rounded-lg text-gray-600  bg-white px-10 py-2"><br>
+                        <label for="" class="text-gray-500 font-medium">Phone</label><br>
+                        <input type="text" placeholder="phone"
+                            class="border-2 border-gray-300 rounded-lg text-gray-600  bg-white px-10 py-2"><br>
+                        <label for="" class="text-gray-500 font-medium">Email</label><br>
+                        <input type="text" placeholder="Email"
+                            class="border-2 border-gray-300 rounded-lg text-gray-600  bg-white px-10 py-2">
+                    </div>
+                </div>
+                <button
+                    class="text-white text-sm bg-black   border-2  px-4 py-2 rounded-lg hover:bg-red-600  transition duration-300">
+                    BOOK TABLE </button>
+            </form>
+        </div>
+        <div class="flex w-1/2 h-screen">
+            <img src="https://preview.colorlib.com/theme/pato/images/booking-01.jpg"
+                class="h-96 rounded-lg hover:scale-105 transition-transform duration-300 ml-32" alt="">
+        </div>
+    </section>
+    <section class="  p-24 bg-white">
+        <div class=" flex flex-col justify-center items-center gap-3">
+            <h2 class=" text-3xl  text-red-600 font-[Courgette]">Customers Say</h2>
+            <h1 class="text-5xl font-bold  font-[Poppins] text-black tracking-widest">REVIEW</h1>
+            <div class="px-20 py-20 rounded-full bg-black mt-8 border-3 border-red-700"></div>
+            <p class=" mt-3 text-gray-600 px-14 text-normal text-center font-[Montserrat] tracking-widest ">
+                " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea corporis quos aspernatur at odit dolorem
+                loremgd gshhgdh teygdh "
+            </p>
+            <div class="text-red-600">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="mt-3 text-gray-600 px-14 text-normal text-center font-[Montserrat] text-sm">MAEIE SIMMONS-NEW YORK
+            </p>
+            <div class="flex space-x-2 mt-28">
+                <div class="px-1 py-1 rounded-full bg-gray-400"></div>
+                <div class="px-1 py-1 rounded-full bg-gray-400"></div>
+                <div class="px-1 py-1 rounded-full bg-gray-400"></div>
+            </div>
+
+        </div>
+    </section>
+    <section
+        class="bg-[url('https://preview.colorlib.com/theme/pato/images/bg-cover-video-02.jpg')] h-screen bg-fixed bg-cover">
+        <div class="h-screen flex flex-col justify-center items-center">
+            <h2 class=" text-3xl  text-red-600 font-[Courgette]">Discover</h2>
+            <h1 class="text-6xl font-bold  font-[Poppins] text-white tracking-widest">OUR VIDEO</h1>
+            <div>
+                <i class="fa-solid fa-play border-1 bg-white rounded-full py-4 px-6 border-none mt-14 "></i>
+                <div>
+                </div>
+            </div>
+    </section>
+    <section class="h-screen  p-b-60 p-24 gap-8">
+        <div class=" flex flex-col justify-center items-center gap-3">
+            <h2 class=" text-3xl  text-red-600 font-[Courgette]">Latest News</h2>
+            <h1 class="text-5xl font-bold  font-[Poppins] text-black tracking-widest">THE BLOG</h1>
+        </div>
+
+        <div class="flex mt-10  gap-8">
+            <div class=" space-y-6">
+                <img src="https://preview.colorlib.com/theme/pato/images/blog-01.jpg "
+                    class="rounded-lg hover:scale-105 transition-transform duration-300" alt="">
+                <h4 class="text-xl [Poppins] tracking-widest font-semibold text-gray-800">BEST PLACES FOR WINE</h4>
+                <p class="text-gray-600 font-[Montserrat]">Phasellus lorem enim, luctus ut velit eget, con-vallis
+                    egestas
+                    eros.</p>
+                <button class="  text-gray-600 font-[Montserrat] ">continue Reading<i
+                        class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+                </button>
+            </div>
+            <div class=" space-y-6">
+                <img src="https://preview.colorlib.com/theme/pato/images/blog-02.jpg"
+                    class="rounded-lg hover:scale-105 transition-transform duration-300" alt="">
+                <h4 class="text-xl [Poppins] tracking-widest font-semibold text-gray-800">EGGS AND CHEESE</h4>
+                <p class="text-gray-600 font-[Montserrat]">Aliquam eget aliquam magna, quis posuere risus ac justo ipsum
+                    nibh urna.</p>
+                <button class="  text-gray-600 font-[Montserrat] ">continue Reading <i
+                        class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+                </button>
+            </div>
+            <div class="space-y-6">
+                <img src="https://preview.colorlib.com/theme/pato/images/blog-03.jpg"
+                    class="rounded-lg hover:scale-105 transition-transform duration-300" alt="">
+                <h4 class="text-xl [Poppins] tracking-widest font-semibold text-gray-800">STYLE THE WEDDING PARTY</h4>
+                <p class="text-gray-600 font-[Montserrat]">Sed ornare ligula eget tortor tempor, quis porta tellus
+                    dictum..
+                </p>
+                <button class="  text-gray-600 font-[Montserrat] ">continue Reading<i
+                        class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <div>
+
+    </div>
+    <footer class="">
+
+    </footer>
+
+    <script>
+        const navbar = document.getElementById("navbar");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                navbar.classList.remove("bg-transparent", "text-white");
+                navbar.classList.add("bg-white", "text-black", "shadow-md");
+            } else {
+                navbar.classList.remove("bg-white", "text-black", "shadow-md");
+                navbar.classList.add("bg-transparent", "text-white");
+            }
+        });
+
+    </script>
+
+
+</body>
+
+</html>
